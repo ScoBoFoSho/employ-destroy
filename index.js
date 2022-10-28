@@ -1,9 +1,10 @@
 const express = require('express');
 const PORT = process.env.PORT || 3001;
+const beginInquirer = require("./util/department")
 const app = express();
 const db = require('./db/connection');
-const apiRoutes = require('./routes/apiRoutes');
-const inputCheck = require('./utils/inputCheck');
+// const apiRoutes = require('./routes/apiRoutes');
+// const inputCheck = require('./utils/inputCheck');
 // express middleware
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
