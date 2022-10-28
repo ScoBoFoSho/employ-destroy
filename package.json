@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "name": "employ-destroy",
+  "description": "Organize Employees in the company",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScoBoFoSho/employ-destroy.git"
+  },
+  "keywords": [
+    "employee"
+  ],
+  "author": "ScoBoFoSho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScoBoFoSho/employ-destroy/issues"
+  },
+  "homepage": "https://github.com/ScoBoFoSho/employ-destroy#readme"
+}
