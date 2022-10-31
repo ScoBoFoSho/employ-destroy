@@ -9,7 +9,7 @@ const db = require('./db/connection');
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-app.use('/api', apiRoutes);
+// app.use('/api', apiRoutes);
 
 
 // Keep 2nd to bottom;
